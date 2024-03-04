@@ -6,5 +6,11 @@ data class Producto(
     var idProducto: String,
     var nomProducto: String,
     var descripcion: String,
-    var precio: Double
+    var precio: Double,
+    val imagenUrl: String
+): Serializable
+
+data class CarritoProducto (
+    var producto: Producto,
+    var cantidad: Int
 ): Serializable

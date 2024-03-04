@@ -48,7 +48,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="#CCC7C7"
-                android:text="VER CARRO DE COMPRAS"
+                android:text="VER RECIBO DE COMPRA"
                 android:textColor="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

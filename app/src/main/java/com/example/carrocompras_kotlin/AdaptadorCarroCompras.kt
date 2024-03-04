@@ -17,6 +17,7 @@ class AdaptadorCarroCompras(
         val tvNomProducto = itemView.findViewById(R.id.tvNomProducto) as TextView
         val tvDescripcion = itemView.findViewById(R.id.tvDescripcion) as TextView
         val tvPrecio = itemView.findViewById(R.id.tvPrecio) as TextView
+
     }
 
     override fun onCreateViewHolder(
